@@ -25,8 +25,7 @@ public class User {
 
     private User(){}
 
-    public User(int id, String name, int age) {
-        this.id = id;
+    public User(String name, int age) {
         this.name = name;
         this.age = age;
         autos = new ArrayList<>();
